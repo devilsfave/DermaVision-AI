@@ -1,0 +1,104 @@
+datasource db {
+  provider = "mongodb"
+  url      = env("DB_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Images {
+  id                       String                    @id @default(auto()) @map("_id") @db.ObjectId
+  createdAt                DateTime                  @default(now())
+  updatedAt                DateTime                  @updatedAt
+  imageUrl                 String?
+  analysisStatus           EnumImagesAnalysisStatus?
+  uploadedAt               DateTime?
+  user                     User?                     @relation(fields: [userId], references: [id])
+  userId                   String?                   @db.ObjectId
+  analysisResultsItems     AnalysisResults[]
+  googleGeminiResultsItems GoogleGeminiResults[]
+}
+
+model Consultations {
+  id          String                   @id @default(auto()) @map("_id") @db.ObjectId
+  createdAt   DateTime                 @default(now())
+  updatedAt   DateTime                 @updatedAt
+  dateTime    DateTime?
+  status      EnumConsultationsStatus?
+  notes       String?
+  patient     String?
+  doctor      String?
+  facility    String?
+  doctorName  String?
+  contactInfo String?
+}
+
+model AnalysisResults {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  result    Json?
+  image     Images?  @relation(fields: [imageId], references: [id])
+  imageId   String?  @db.ObjectId
+}
+
+model Reports {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Notifications {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model User {
+  id          String            @id @default(auto()) @map("_id") @db.ObjectId
+  createdAt   DateTime          @default(now())
+  updatedAt   DateTime          @updatedAt
+  firstName   String?
+  lastName    String?
+  username    String            @unique
+  email       String?           @unique
+  password    String
+  roles       Json
+  role        EnumUserRole?
+  imagesItems Images[]
+  userRole    EnumUserUserRole?
+}
+
+model HomeRemedies {
+  id            String   @id @default(auto()) @map("_id") @db.ObjectId
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  skinCondition String?
+  remedyDetails String?
+}
+
+model GoogleGeminiResults {
+  id           String   @id @default(auto()) @map("_id") @db.ObjectId
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  geminiResult Json?
+  image        Images?  @relation(fields: [imageId], references: [id])
+  imageId      String?  @db.ObjectId
+}
+
+enum EnumImagesAnalysisStatus {
+  Option1
+}
+
+enum EnumConsultationsStatus {
+  Option1
+}
+
+enum EnumUserRole {
+  Option1
+}
+
+enum EnumUserUserRole {
+  Option1
+}
