@@ -1,0 +1,710 @@
+[
+  {
+    "role": "administrator",
+    "resource": "Images",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "doctor",
+    "resource": "Images",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "patient",
+    "resource": "Images",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Images",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "doctor",
+    "resource": "Images",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "patient",
+    "resource": "Images",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Images",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "doctor",
+    "resource": "Images",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "patient",
+    "resource": "Images",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Images",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "doctor",
+    "resource": "Images",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "patient",
+    "resource": "Images",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Images",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "doctor",
+    "resource": "Images",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "patient",
+    "resource": "Images",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Consultations",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "doctor",
+    "resource": "Consultations",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "patient",
+    "resource": "Consultations",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Consultations",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "doctor",
+    "resource": "Consultations",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "patient",
+    "resource": "Consultations",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Consultations",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "doctor",
+    "resource": "Consultations",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "patient",
+    "resource": "Consultations",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Consultations",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "doctor",
+    "resource": "Consultations",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "patient",
+    "resource": "Consultations",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Consultations",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "doctor",
+    "resource": "Consultations",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "patient",
+    "resource": "Consultations",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "AnalysisResults",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "doctor",
+    "resource": "AnalysisResults",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "patient",
+    "resource": "AnalysisResults",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "AnalysisResults",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "doctor",
+    "resource": "AnalysisResults",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "patient",
+    "resource": "AnalysisResults",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "AnalysisResults",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "doctor",
+    "resource": "AnalysisResults",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "patient",
+    "resource": "AnalysisResults",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "AnalysisResults",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "doctor",
+    "resource": "AnalysisResults",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "patient",
+    "resource": "AnalysisResults",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "AnalysisResults",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "doctor",
+    "resource": "AnalysisResults",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "patient",
+    "resource": "AnalysisResults",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Reports",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "doctor",
+    "resource": "Reports",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "patient",
+    "resource": "Reports",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Reports",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "doctor",
+    "resource": "Reports",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "patient",
+    "resource": "Reports",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Reports",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "doctor",
+    "resource": "Reports",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "patient",
+    "resource": "Reports",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Reports",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "doctor",
+    "resource": "Reports",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "patient",
+    "resource": "Reports",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Reports",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "doctor",
+    "resource": "Reports",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "patient",
+    "resource": "Reports",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Notifications",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "doctor",
+    "resource": "Notifications",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "patient",
+    "resource": "Notifications",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Notifications",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "doctor",
+    "resource": "Notifications",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "patient",
+    "resource": "Notifications",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Notifications",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "doctor",
+    "resource": "Notifications",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "patient",
+    "resource": "Notifications",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Notifications",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "doctor",
+    "resource": "Notifications",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "patient",
+    "resource": "Notifications",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Notifications",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "doctor",
+    "resource": "Notifications",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "patient",
+    "resource": "Notifications",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "doctor",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "patient",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "doctor",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "patient",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "patient",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "doctor",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "patient",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "doctor",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "patient",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "HomeRemedies",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "doctor",
+    "resource": "HomeRemedies",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "patient",
+    "resource": "HomeRemedies",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "HomeRemedies",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "doctor",
+    "resource": "HomeRemedies",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "patient",
+    "resource": "HomeRemedies",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "HomeRemedies",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "doctor",
+    "resource": "HomeRemedies",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "patient",
+    "resource": "HomeRemedies",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "HomeRemedies",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "doctor",
+    "resource": "HomeRemedies",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "patient",
+    "resource": "HomeRemedies",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "HomeRemedies",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "doctor",
+    "resource": "HomeRemedies",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "patient",
+    "resource": "HomeRemedies",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "GoogleGeminiResults",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "doctor",
+    "resource": "GoogleGeminiResults",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "patient",
+    "resource": "GoogleGeminiResults",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "GoogleGeminiResults",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "doctor",
+    "resource": "GoogleGeminiResults",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "patient",
+    "resource": "GoogleGeminiResults",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "GoogleGeminiResults",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "doctor",
+    "resource": "GoogleGeminiResults",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "patient",
+    "resource": "GoogleGeminiResults",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "GoogleGeminiResults",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "doctor",
+    "resource": "GoogleGeminiResults",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "patient",
+    "resource": "GoogleGeminiResults",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "GoogleGeminiResults",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "doctor",
+    "resource": "GoogleGeminiResults",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "patient",
+    "resource": "GoogleGeminiResults",
+    "action": "read:any",
+    "attributes": "*"
+  }
+]
